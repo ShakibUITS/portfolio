@@ -1,10 +1,13 @@
-section {
+.flex-display {
     display: flex;
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
 
 .container {
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
 }
 
 div img {
@@ -12,7 +15,7 @@ div img {
     padding-left: 10%;
 }
 
-#Button {
+.Button {
     text-decoration: none;
     background-image: linear-gradient(orange, red);
     padding: 8px 30px;
@@ -25,4 +28,33 @@ div img {
 
 .paragraph {
     font-size: larger;
+}
+
+#background {
+    background-image: url(bg3.jpg);
+    background-repeat: no-repeat;
+}
+
+#background2 {
+    background-image: url(bg4.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+.box {
+    box-shadow: 10px 10px 40px gray;
+    padding: 5%;
+    margin: 2%;
+}
+
+#border {
+    border-right: 7px solid rgb(216, 151, 9);
+}
+
+#border2 {
+    border-right: 7px solid red;
 }
